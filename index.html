@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <title>INV</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="title">INV</div>
+        <div class="sub-con-100">
+            <div class="sub-con-50">M INV</div>
+            <div class="sub-con-50">
+                <input class="inp-int" id="m_invest" value="1000" step="10" min="0" max="1000000" type="number">
+                <input class="inp-str" id="m_invest_text" type="text">
+            </div>
+        </div>
+        <div class="sub-con-100">
+            <div class="sub-con-50">APY</div>
+            <div class="sub-con-50">
+                <input class="inp-int" id="APY" value="10.00" step="0.05" min="0" max="100" type="number">
+                <input class="inp-str" id="APY_text" type="text">
+            </div>
+        </div>
+        <div class="sub-con-100">
+            <div class="sub-con-50">Year</div>
+            <div class="sub-con-50">
+                <input class="inp-int" id="year" value="10" step="1" min="1" max="50" type="number">
+                <input class="inp-str" id="year_text" type="text">
+            </div>
+        </div>
+        <div class="sub-con-100 highlights-g">
+            <div class="sub-con-50">Result</div>
+            <div class="sub-con-50">
+                <input class="inp-str" id="result" type="text" disabled>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="sub-con-100">
+                <div class="sub-con-50 c-c">Cap</div>
+                <div class="sub-con-50 c-g">Int</div>
+        </div>
+        <div class="sub-con-100">
+            <div class="bar-b" id="cap_bar"></div>
+            <div class="bar-g" id="int_bar"></div>
+    </div>
+    </div>
+    
+</body>
+</html>
